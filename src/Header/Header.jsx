@@ -3,12 +3,12 @@ import iconoHeader from '../../public/assets/icono.png'
 
 const Header = () => {
   return (
-    <div className='w-full h-[6rem] bg-yellow-100  flex justify-center items-center border-2 border-gray-500'>
-        <div className='bg-green-300'>
-          <span className='text-black font-bold text-3xl hover:text-blue-500 font-serif '>Chocotela</span>
+    <div className='w-full  md:h-[6rem] bg-[#894e3f]  flex justify-center items-center'>
+        <div className=''>
+          <span className='text-[#f0d7a7] font-[nunito] text-5xl hover:text-black '>Chocotela</span>
         </div>
         <div className=''>
-          <img src={iconoHeader} className="h-[4rem]"/>
+          <img src={iconoHeader} className="h-[5rem]"/>
         </div>
     </div>
   )
