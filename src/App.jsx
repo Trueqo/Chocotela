@@ -6,7 +6,7 @@ import Navbar from './Navbar/Navbar'
 import NavbarRespon from './NavbarRespon/NavbarRespon'
 import Home from './Views/Home'
 import { Route, Routes } from "react-router-dom";
-
+import 'flowbite';
 function App() {
 
   return (
