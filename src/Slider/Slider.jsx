@@ -1,30 +1,39 @@
 import React from 'react'
-
+import img1 from '../../public/assets/imgSlider/img1.jpg'
+import img2 from '../../public/assets/imgSlider/img2.jpg'
+import img3 from '../../public/assets/imgSlider/img3.jpg'
+import img4 from '../../public/assets/imgSlider/img4.jpg'
+import img5 from '../../public/assets/imgSlider/img5.jpg'
+import img6 from '../../public/assets/imgSlider/img6.jpg'
 
 const Slider = () => {
     return (
         <div id="controls-carousel" class="relative" data-carousel="static">
 
-            <div class="overflow-hidden relative h-48 rounded-lg sm:h-64 xl:h-80 2xl:h-96">
+            <div class="overflow-hidden relative h-48 rounded-lg sm:h-64 xl:h-80 2xl:h-[20rem]">
 
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <img src="https://github.com/Trueqo/Imagenes/blob/main/miniaturas/portafolio.PNG?raw=true" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="..." />
+                    <img src={img1} class="absolute top-1/2 left-1/2  md:w-full h-[20rem] -translate-x-1/2 -translate-y-1/2 object-cover" alt="..." />
                 </div>
 
                 <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
-                    <img src="https://github.com/Trueqo/Imagenes/blob/main/miniaturas/portafolio.PNG?raw=true" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="..." />
+                    <img src={img2} class="absolute top-1/2 left-1/2  md:w-full h-[20rem] -translate-x-1/2 -translate-y-1/2 object-cover" alt="..." />
                 </div>
 
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <img src="https://github.com/Trueqo/Imagenes/blob/main/miniaturas/portafolio.PNG?raw=true" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="..." />
+                    <img src={img3} class="absolute top-1/2 left-1/2  md:w-full h-[20rem] -translate-x-1/2 -translate-y-1/2 object-contain" alt="..." />
                 </div>
 
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <img src="https://github.com/Trueqo/Imagenes/blob/main/miniaturas/portafolio.PNG?raw=true" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="..." />
+                    <img src={img4} class="absolute top-1/2 left-1/2  md:w-full h-[20rem] -translate-x-1/2 -translate-y-1/2 object-cover" alt="..." />
                 </div>
 
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <img src="https://github.com/Trueqo/Imagenes/blob/main/miniaturas/portafolio.PNG?raw=true" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="..." />
+                    <img src={img5} class="absolute top-1/2 left-1/2  md:w-full h-[20rem] -translate-x-1/2 -translate-y-1/2 object-contain" alt="..." />
+                </div>
+
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src={img6} class="absolute top-1/2 left-1/2  md:w-full h-[20rem] -translate-x-1/2 -translate-y-1/2 object-contain" alt="..." />
                 </div>
             </div>
 
