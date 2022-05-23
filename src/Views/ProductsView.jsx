@@ -7,13 +7,13 @@ const ProductsView = () => {
        
             {products.map(datos=>(
                 <div className='bg-color5 rounded-2xl w-[15rem] h-[20rem] flex flex-col items-center flex-wrap mx-auto my-6'>
-                    <div className=' w-full h-[10rem] '>
+                    <div className=' w-full h-[10rem] mb-2'>
                         <img src={datos.Image}  className='w-full h-[10rem] object-cover rounded-t-2xl'/>
                     </div>
-                    <span className='text-xl font-[nunito]'>{datos.title}</span>
+                    <span className='text-xl font-[nunito] text-color6'>{datos.title}</span>
                     <div className='flex flex-row flex-wrap justify-center text-center'>
-                        <span className='font-[roboto]'> Valor: {datos.price}</span>
-                        <span className='bg-color6 mx-4 text-black font-[roboto] rounded-xl'>{datos.description}</span>
+                        <span className='font-[roboto] text-color6'> Valor: {datos.price}</span>
+                        <span className='bg-color2 mx-4 p-2 text-black font-[roboto] rounded-xl '>{datos.description}</span>
                     </div>
                 </div>
             ))}
