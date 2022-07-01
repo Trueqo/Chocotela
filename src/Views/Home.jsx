@@ -11,7 +11,7 @@ const Home = () => {
                 </div>
             </div>
             <div className='w-[100%] h-[100%] relative flex items-center justify-center'>
-                <img src='/public/assests/homeImg1.png' className='w-[85%] h-[90%] absolute bottom-0' />
+                <img src='/assests/homeImg1.png' className='w-[85%] h-[90%] absolute bottom-0' />
             </div>
         </div>
     )
