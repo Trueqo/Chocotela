@@ -1,24 +1,23 @@
-import React from 'react'
-import Slider from '../Slider/Slider'
+import Slider from "../Components/Carousel/Slider"
+
+
 
 
 const Home = () => {
-  return (
-    <div className='flex md:flex-row flex-col h-screen '>
-    <div className='w-full h-1/2 md:h-full flex pt-[5rem] flex-col'>
-        <h1 className='mx-auto font-bold font-[roboto] text-4xl text-color6 text-center pb-4'>
-          Algunos de nuestros productos
-        </h1>
-        <div className=' w-full md:w-[35rem] mx-auto'>
-          <Slider/>
+    return (
+        <div className='h-screen bg-orange-900 grid grid-rows-2 md:grid-rows-1 md:grid-cols-2 '>
+                
+            <div className=' md:w-[100%] md:h-[100%] row-span-1 md:col-span-1'>
+                <div className="w-full h-full  flex pt-[6rem]
+                justify-center">
+                    <Slider/>
+                </div>
+            </div>
+            <div className='w-[100%] h-[100%] relative flex items-center justify-center'>
+                <img src='/public/assests/homeImg1.png' className='w-[85%] h-[90%] absolute bottom-0' />
+            </div>
         </div>
-    </div>
-    <div className='w-full h-1/2 md:h-full flex  '>
-      <span className='text-center text-6xl text-black'>Foto de estella</span>
-    </div>
-    
-    </div>
-  )
+    )
 }
 
 export default Home

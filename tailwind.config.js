@@ -1,9 +1,8 @@
 module.exports = {
-
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
-    "./node_modules/flowbite/**/*.js",
   ],
+  
   theme: {
     extend: {
       FontFamily: {
@@ -21,8 +20,5 @@ module.exports = {
       },
     },
   },
-  plugins: [
-    require("daisyui"),
-    require('flowbite/plugin'),
-]
-};
+  plugins: [require("daisyui")],
+}

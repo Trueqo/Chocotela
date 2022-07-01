@@ -1,25 +1,32 @@
-import logo from './logo.svg'
-import './App.css'
-import Header from './Header/Header'
-import Footer from './Footer/Footer'
-import Navbar from './Navbar/Navbar'
-import NavbarRespon from './NavbarRespon/NavbarRespon'
+import Footer from './Components/Footer/Footer'
+import Header from './Components/Header/Header'
+import Cart from './Components/Cart/Cart'
+import Product from './Views/Product'
+
+//vistas
+import About from './Views/About'
 import Home from './Views/Home'
-import { Route, Routes } from "react-router-dom";
-import 'flowbite';
-import ProductsView from './Views/ProductsView'
+
+import { CartProvider } from './Context/CartContext'
+import { Routes, Route, Link } from "react-router-dom";
+
+
+
+
 function App() {
+  
 
   return (
-    <div className='bg-color4 w-full h-screen relative'>
-      <Header />
-      <NavbarRespon />
+    <CartProvider className='relative min-h-screen'>
+      <Cart/>
+      <Header/>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/products" element={<ProductsView/>} />
+        <Route path="/about" element={<About />} />
+        <Route path="/product" element={<Product/>} />
       </Routes>
-      <Footer /> 
-    </div>
+      <Footer/>
+    </CartProvider>
   )
 }
 

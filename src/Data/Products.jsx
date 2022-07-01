@@ -1,38 +1,39 @@
 const products =[
     {
         id:1,
-        Image:'/assets/imgSlider/img1.jpg',
+        Image:'/assests/img1.jpg',
         title:'Fresita decorada',
-        price:'1000 unidad',
+        price:1000,
         description:'Magnifica fresita cubierta con chocolate blanco o negro y decorada .'
     },
     {
         id:2,
-        Image:'/assets/imgSlider/img2.jpg',
+        Image:'/assests/img2.jpg',
         title:'Estrellas en palito',
-        price:'500 unidad',
+        price:500,
         description:'Ricas estrellas en palito, con una no quedas satisfech@.'
     },
     {
         id:3,
-        Image:'/assets/imgSlider/img3.jpg',
+        Image:'/assests/img3.jpg',
         title:'Corazón en palito',
-        price:'700 unidad',
+        price:700,
         description:'Delicioso corazón en palito, ideal para calmar antojos de chocolate.'
     },
     {
         id:4,
-        Image:'/assets/imgSlider/img4.jpg',
+        Image:'/assests/img4.jpg',
         title:'Caja de fresitas',
-        price:'5000 unidad',
+        price:5000,
         description:'Rica caja de fresas cubiertas con chocolate y decoradas.'
     },
     {
         id:5,
-        Image:'/assets/imgSlider/img5.jpg',
+        Image:'/assests/img5.jpg',
         title:'Rosas decoradas',
-        price:'1200 unidad',
+        price:1200,
         description:'Deliciosa de chocolate blanco y negro.'
-    }]
+    }
+]
 
 export default products
