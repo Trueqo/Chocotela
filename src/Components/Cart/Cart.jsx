@@ -42,13 +42,13 @@ const Cart = () => {
 
     return (
 
-        <div className=" bg-color4 font-[nunito]  h-[4rem]">
+        <div className=" bg-color4 font-[nunito]   p-4">
             <div className="flex justify-center items-center ">
                 <a className="text-black normal-case text-[2.5rem]">
                 Chocotela</a>
                 <img src="/assests/icono.png" className="h-[3.5rem] hover:animate-spin"/>
             </div>
-            <div className="flex-none absolute right-0 top-0 mt-2 mr-2 md:mt-0 md:mr-0
+            <div className="flex-none absolute right-0 top-0 mt-5 mr-2 md:mt-4 md:mr-0
             md:right-4 md:top-[0.5rem]">
                 <div className="dropdown dropdown-end">
                     <label tabIndex="0" className="btn btn-ghost btn-circle">
