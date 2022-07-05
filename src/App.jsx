@@ -9,6 +9,7 @@ import Home from './Views/Home'
 
 import { CartProvider } from './Context/CartContext'
 import { Routes, Route, Link } from "react-router-dom";
+import Contact from './Views/Contact'
 
 
 
@@ -24,6 +25,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/product" element={<Product/>} />
+        <Route path="/contact" element={<Contact/>} />
       </Routes>
       <Footer/>
     </CartProvider>

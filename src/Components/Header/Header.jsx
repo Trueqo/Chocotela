@@ -18,7 +18,7 @@ const Header = (props) => {
               <li className='cursor-pointer hover:bg-color4 hover:text-black px-2 rounded-lg'>productos</li>
             </Link>
 
-            <Link to='/product'>
+            <Link to='/contact'>
               <li className='cursor-pointer hover:bg-color4 hover:text-black px-2 rounded-lg'>Contacto</li>
             </Link>
 
