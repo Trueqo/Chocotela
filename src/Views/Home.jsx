@@ -1,10 +1,14 @@
-import Slider from "../Components/Carousel/Slider"
+import Slider from '../Components/Carousel/Slider'
 
 const Home = () => {
     return (
         <div className='h-screen bg-orange-900 grid grid-rows-2 grid-cols-1 md:grid-cols-2 md:grid-rows-1'>
-                <div className="bg-green-300 ">
-            
+                <div className="flex flex-col  items-center justify-center">
+                    <span className='font-[nunito] text-[2rem] mb-4 text-color6'>¡Conoce nuestros productos!</span>    
+                    <div className='w-[15rem] flex justify-center'>
+
+                        <Slider/>
+                    </div>
                 </div>
                 
                 <div className='w-[100%] h-[100%] relative flex items-center justify-center'>
