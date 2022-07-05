@@ -12,8 +12,8 @@ const Slider = () => {
 
     <Swiper
       spaceBetween={50}
-      // modules={[Autoplay]}
-      // autoplay={{ delay:2000 }}
+       modules={[Autoplay]}
+       autoplay={{ delay:2000 }}
       slidesPerView={1}
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}

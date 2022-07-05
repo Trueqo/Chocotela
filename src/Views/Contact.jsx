@@ -2,6 +2,9 @@ import React from 'react'
 import { FaWhatsappSquare } from 'react-icons/fa';
 
 const Contact = () => {
+
+    const linkWhatsapp  = 'https://wa.me/573013636678?text=%20Hola!%20Tengo%20una%20idea%20en%20mente...'
+
   return (
     <div className=' bg-color5 flex flex-col min-h-screen
      items-center relative justify-center'>
@@ -21,10 +24,10 @@ const Contact = () => {
 
                 <img src='/assests/contactImg.png' className='bottom-0'/> 
             
-                <span className='bg-white text-green-400 absolute text-[5rem]
-                 rounded-xl top-16 right-10'>
+                <a href={linkWhatsapp} target='_blank' className='bg-white text-green-400 absolute text-[5rem] rounded-xl top-16 right-10 cursor-pointer z-50'>
                     <FaWhatsappSquare/>
-                </span> 
+                </a>
+        
             </div>
             
             

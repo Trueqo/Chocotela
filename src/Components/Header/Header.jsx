@@ -9,9 +9,9 @@ const Header = (props) => {
               <li className='cursor-pointer hover:bg-color4 hover:text-black px-2 rounded-lg'>Inicio</li>
             </Link>
             
-            <Link to='/about'>
+            {/* <Link to='/about'>
               <li className='cursor-pointer hover:bg-color4 hover:text-black px-2 rounded-lg'>Sobre Chocotela</li>
-            </Link>
+            </Link> */}
               
             
             <Link to='/product'>
