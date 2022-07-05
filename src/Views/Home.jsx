@@ -4,7 +4,7 @@ const Home = () => {
     return (
         <div className='h-screen bg-orange-900 grid grid-rows-2 grid-cols-1 lg:grid-cols-2 lg:grid-rows-1'>
                 <div className="flex flex-col  items-center justify-center">
-                    <span className='font-[nunito] text-[2rem] mb-4 text-color6 text-center m-2'>¡Conoce nuestros productos!</span>    
+                    <span className='font-[nunito] text-[1.5rem] md:text-[2rem] mb-4 text-color6 text-center m-2'>¡Conoce nuestros productos!</span>    
                     <div className='w-[15rem] flex justify-center'>
 
                         <Slider/>
